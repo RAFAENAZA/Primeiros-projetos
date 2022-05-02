@@ -1,0 +1,3 @@
+GOSTARIA de ver o fim de todas as guerras? É claro que deve existir uma solução diplomática para conflitos nacionais e internacionais. Muitos acreditam que, se os líderes mundiais apenas cooperassem, a guerra poderia ser erradicada. É bem provável, no entanto, que você esteja desapontado com a diplomacia. Há séculos os diplomatas vêm ratificando tratados, emitindo resoluções e realizando reuniões de cúpula, mas poucos problemas têm tido uma solução permanente.
+
+A Bíblia fala muito sobre a diplomacia e a paz. Responde a perguntas como: Que fatores atualmente impedem que a diplomacia traga a paz? Os cristãos devem envolver-se na diplomacia? Como se conseguirá finalmente obter a paz?
