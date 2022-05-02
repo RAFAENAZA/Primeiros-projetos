@@ -1,4 +1,4 @@
-programa múltipla escolha
+programa múltipla escolha testando funcionalidades
 {
 	
 	funcao inicio()
