@@ -1,4 +1,4 @@
-programa
+programa múltipla escolha
 {
 	
 	funcao inicio()
@@ -20,19 +20,19 @@ programa
 
 
 ​	 
-	caso 1:
-		escreva ("continue")
-	pare
-	caso 2:
-		escreva ("pode tentar")
-	 pare
-	caso 3: 
-		escreva ("quer continuar?" + "\n")
-		escreva ("digite sim ou não" +"\n")
-		leia (resposta2)
-		se (resposta2 == "sim")
-		escreva ("vamos prosseguir")
-		
+​	caso 1:
+​		escreva ("continue")
+​	pare
+​	caso 2:
+​		escreva ("pode tentar")
+​	 pare
+​	caso 3: 
+​		escreva ("quer continuar?" + "\n")
+​		escreva ("digite sim ou não" +"\n")
+​		leia (resposta2)
+​		se (resposta2 == "sim")
+​		escreva ("vamos prosseguir")
+​		
 		senao {
 		escreva ("ADEUS!!!")}
 	pare
