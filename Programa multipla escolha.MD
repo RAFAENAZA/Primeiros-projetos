@@ -1,4 +1,4 @@
-programa múltipla escolha testando funcionalidades
+programa múltipla escolha 
 {
 	
 	funcao inicio()
@@ -33,18 +33,18 @@ programa múltipla escolha testando funcionalidades
 ​		se (resposta2 == "sim")
 ​		escreva ("vamos prosseguir")
 ​		
-		senao {
-		escreva ("ADEUS!!!")}
-	pare
-	caso 4 :
-		escreva ("melhor parar")
-	pare
-	caso 5:  
-		escreva ("Adeus")
-	pare
-	caso contrario :
-	escreva ("Você deve escolher um número de 1 a 5"+ "\n")
-		}
-		} enquanto (resposta >=6)
-		}
+​		senao {
+​		escreva ("ADEUS!!!")}
+​	pare
+​	caso 4 :
+​		escreva ("melhor parar")
+​	pare
+​	caso 5:  
+​		escreva ("Adeus")
+​	pare
+​	caso contrario :
+​	escreva ("Você deve escolher um número de 1 a 5"+ "\n")
+​		}
+​		} enquanto (resposta >=6)
+​		}
 }
