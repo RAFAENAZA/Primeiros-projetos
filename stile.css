@@ -1,0 +1,90 @@
+body{
+    background:  rgb(77, 255, 145);
+    border-width: thick;
+    border-color: black;
+    border-style: solid;
+    margin: 1cm;
+padding: 2px;
+max-width: 1080px;
+margin:auto;
+}
+
+.titulo, .subtitulo, .postitulo {
+color:black;
+}
+.titulo {
+    font-family:fantasy;
+    font-size:30px;
+    padding:10px 10px 10px 10cm;
+}
+.postitulo {
+    text-align:justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:hsl(355, 100%, 50%);
+    background:#22d8e6
+    font-style:oblique;
+    padding:10px 10px 10px 220px;
+   
+    }
+    
+    .corartigo {
+        background-color:hsla(294, 21%, 73%, 0.643) ;
+        color:#2130fc;
+        
+    }
+    .nova {
+        
+        background-color: blanchedalmond;
+        color:hwb(263 7% 16%);
+        padding:1cm 1cm 1cm 400px;
+        font-size: 40;
+    }
+    .texto{
+        text-align: center;
+        font-family: cursive;
+        font-size: 30px;
+        color:black;
+        padding:1cm;
+        border-width:20px;
+        border-color: #a519cf;
+        border-style:dotted;
+        font-style: italic;
+    }
+    .rodape{
+        
+        color:#f80909;
+        padding:1cm 1cm 1cm 8cm;
+    }
+    .novopostitulo{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 25px;
+        color:#f80909;
+        padding:20px 1cm 5px 1cm;
+        border-width:10px;
+        border-color: #04003b;
+        border-style:dashed;
+    }
+    .imagemlago{
+        margin:0;
+        border-radius: 25cm;
+      width:100%;
+        
+    }
+    .imagempessoal{
+        margin:15px 11cm 15px 12cm;
+        border-radius: 95px;
+              
+    }
+    .abaixo{
+        color: #a519cf;
+        font-size: 25px;
+        font-style:initial;
+        margin:15px 5cm 15px 8cm;
+    }
+    .listadecontatos{
+        list-style-type:circle;
+        padding: 2px 2px 2px 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:15;
+        font-weight: bold;
+    }
