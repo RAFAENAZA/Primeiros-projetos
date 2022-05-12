@@ -1,0 +1,34 @@
+<!DOCTYPEhtml>
+<html  lang ="en">
+<head>
+    <meta  charset =" UTF-8">
+    <meta  name ="viewport" content ="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href ="stile.css"/>
+    <title> Contador </title>
+</head>
+<body>
+    <h1>Increment and Decrement counter</h1>
+  
+    <div>            
+      <button onclick="somar()">+</button>  
+        <h2 id="contagem">0</h2>
+        <button onclick="subtrair()">-</button>         
+    </div>
+    <script>
+
+var data = 0;
+
+function somar() {
+    data = data + 1;
+    document.getElementById("contagem").innerText = data;
+}
+
+function subtrair() {
+    data = data - 1;
+    document.getElementById("contagem").innerText = data;
+}
+
+    </script>
+  
+</body >
+</html>
