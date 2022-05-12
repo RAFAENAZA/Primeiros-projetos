@@ -14,14 +14,37 @@ programa
 		cadeia senha
 		cadeia produto
 		cadeia resposta
+		cadeia confirmasenha
 
 		escreva("Olá seja bem vindo: " +"\n")
-		escreva ("Para continuar, faça login."+"\n")
+		escreva ("Para continuar, faça login."+"Ou cadastre-se" + "\n")	
+		escreva ("Já tem cadastro? ")
+		leia (resposta)
+		se (resposta != "sim"){
+			escreva("Digite seu nome completo: ")
+			leia (resposta)
+		faca {
+			
+			escreva (	"cadastre uma senha: ")
+			leia (senha)
+			escreva("confirme sua senha: ")
+			leia (confirmasenha)
+		se (confirmasenha != senha)
+		escreva ("senhas não coincidem ")
+		}enquanto (confirmasenha != senha)
+			escreva ("usuário cadastrado com sucesso!" + "\n")
+		}
+		
+		escreva ("Para continuar ")
+		
 		escreva ("Digite seu nome de usuário: ")
 		leia (usuario)
-		escreva ("Digite sua senha: ")
-		leia (senha)
 
+
+		escreva ("Digite sua senha: ")
+		leia (senha)		
+			
+		
 		faca {
 		escreva ("digite o nome do cliente ")
 		leia (cliente)
@@ -70,10 +93,17 @@ programa
 		faca {
 		escreva("Deseja parcelar de quantas vezes? ")
 		leia (parcelas)
-			escreva("Você deseja parcelar de " + parcelas + "X?")
-		valorfinal = valor/parcelas
+		se (parcelas >10){
+			valor = valor*1.2
+			
+		}
 		
-		escreva (valor + " / " + parcelas + " = " + valorfinal + "\n")
+		senao escreva("Você deseja parcelar de " + parcelas + " X? ")
+		valorfinal = valor/parcelas
+
+		
+		
+		 escreva (valor + " / " + parcelas + " = " + valorfinal + "\n")
 
 		escreva("Deseja finalizar a compra? ")
 			leia (resposta)
@@ -100,7 +130,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1469; 
+ * @POSICAO-CURSOR = 2203; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

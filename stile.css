@@ -39,14 +39,14 @@ color:black;
     }
     .texto{
         text-align: justify;
-        font-family:sans-serif;
+        font-family:Arial, Helvetica, sans-serif;
         font-size: 25px;
         color:black;
         padding:1cm;
         border-width:20px;
         border-color: #a519cf;
         border-style:dotted;
-        font-style: italic;
+        
     }
     .rodape{
         
